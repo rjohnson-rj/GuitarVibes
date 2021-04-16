@@ -1,0 +1,178 @@
+<!--Fresh Pages
+Page Turners-->
+
+<!DOCTYPE html>
+<html lang="en-CA">
+
+<head>
+    <meta charset="UTF-8">
+    <title> GuitarVibes.com</title>
+
+    <meta name="description" content="Best Music Store for Acoustic,Electric And Bass Guitars for best price and for best choice.|| Fender,
+            Gibson, Gretsch, Godin,PRS, Samick, Seagull,Taylor, Yamaha">
+    <meta name="author" content="Minnu Thomas">
+
+    <!--to hide from search engine, remove this line for public website-->
+    <!-- <meta name="robots" content="noindex,nofollow"> -->
+
+    <!-- for responsive website that adapt to screen size====================-->
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+
+    <!-- icon-->
+    <link rel="icon" href="../icons/icon.png" type="image/png">
+
+    <!--CSS page===========================================================-->
+    <link rel="stylesheet" href="../css/project-css.css">
+    <link rel="stylesheet" href="../css/contactus.css">
+
+    <!--google font link-->
+    <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <!--HEADER===========================================-->
+    <header>
+
+        <img src="../icons/LogoGuitarVibes.png" id="Logoguitar" title="Freshpages" alt="GuitarVibes">
+    </header>
+
+
+    <!--Nav==============================================-->
+    <div class="navbar">
+        <a href="../html/index.html">Home</a>
+        <a href="../html/Cataloge.html">Catalogue</a>
+        <a href="../html/Comaprison.html">Compare</a>
+        <a href="../html/gallery.html">Gallery</a>
+        <a href="../html/Contactus.html">Contact us</a>
+    </div>
+    <!--main=============================================-->
+    <main id="homemain">
+        <div class="container">
+            <div style="text-align:center">
+                <h1>Contact Us</h1>
+            </div>
+
+
+            <div class="form">
+                <h3>leave us a message to get more Details:</h3>
+                <form action="#">
+
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+
+                    <input type="text" id="email" name="email" placeholder="Your email address.." required>
+                    <label for="country">Country</label>
+
+
+                    <select id="country" name="country" required>
+                        <option value="">--Select--</option>
+                        <option value="australia">Australia</option>
+                        <option value="canada">Canada</option>
+                        <option value="usa">USA</option>
+                    </select>
+
+
+                    <label>Choose guitar type</label>
+                    <div class="radio">
+                        <input type="radio" id="acoustic" name="guitar-type" value="acoustic">
+                        <label for="acoustic">Acoustic</label>
+                        <input type="radio" id="bass" name="guitar-type" value="bass">
+                        <label for="bass">Bass</label>
+                        <input type="radio" id="electric" name="guitar-type" value="electric">
+                        <label for="electric">Electric</label>
+                    </div>
+
+                    <label>Choose guitar company</label>
+                    <div class="radio">
+                        <input type="checkbox" id="company1" name="comapany1" value="gibson">
+                        <label for="company1">Gibson</label>
+                        <input type="checkbox" id="company2" name="company2" value="fender">
+                        <label for="company2">Fender</label>
+                        <input type="checkbox" id="company3" name="company3" value="prs">
+                        <label for="company3">PRS</label>
+                        <input type="checkbox" id="company4" name="comapany4" value="g&l">
+                        <label for="company4">G&L</label>
+                        <input type="checkbox" id="company5" name="company5" value="rickenbacker">
+                        <label for="company5">Rickenbacker</label>
+                        <input type="checkbox" id="company6" name="company6" value="ibanez">
+                        <label for="company6">Ibanez</label>
+                    </div>
+
+                    <label>Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                    <input type="submit" value="Send Message" onclick="myMessage()">
+                </form>
+            </div>
+        </div>
+
+
+        <div id="contactdetails">
+            Location: 129 Ave Van HorneMontreal, QC H2T 2J2<br>
+            Email Us:
+            <a href="mailto:guitarvibes@gmail.com" target="_blank">guitarvibes@gmail.com</a><br>
+            Call Us :
+            <a href="tel:514-123-6549">514-123-6549
+            </a><br>
+            Connect with us
+            <a href="https://www.facebook.com/guitar/" target="_blank">
+                <img src="../icons/fb.png" title="view us on facebook" alt="facebook">
+            </a>
+            <a href="https://twitter.com/guitar?lang=en" target="_blank">
+                <img src="../icons/twitter.png" title="view us on Twitter" alt="twitter">
+            </a>
+            <a href="https://www.instagram.com/explore/tags/guitar/?hl=en" target="_blank">
+                <img src="../icons/insta.png" title="view us on instagram" alt="instagram">
+            </a>
+
+
+
+        </div>
+
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11180.477413420138!2d-73.607598!3d45.5278037!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa854215a45e0fc72!2sMontreal%20Guitar!5e0!3m2!1sen!2sca!4v1595806749505!5m2!1sen!2sca"
+                width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                tabindex="0"></iframe>
+        </div>
+
+
+
+    </main>
+
+    <!-- Footer===========================================-->
+    <footer>
+
+        <a href="#">
+            <h3> Back to top </h3>
+        </a>
+        <!-- <p>Location : 129 Ave Van HorneMontreal, QC H2T 2J2 </p> -->
+        Contact us :<a href="mailto:guitarvibes@gmail.com" target="_blank">
+            <img src="../icons/mail.png" alt="email icon" title="click to email">
+
+        </a>
+        <a href="tel:514-123-6549">
+            <img src="../icons/phone.png" title="make a call" alt="phone image">
+        </a>
+
+        Connect with us
+        <a href="https://www.facebook.com/guitar/" target="_blank">
+            <img src="../icons/fb.png" title="view us on facebook" alt="facebook">
+        </a>
+        <a href="https://twitter.com/guitar?lang=en" target="_blank">
+            <img src="../icons/twitter.png" title="view us on Twitter" alt="twitter">
+        </a>
+        <a href="https://www.instagram.com/explore/tags/guitar/?hl=en" target="_blank">
+            <img src="../icons/insta.png" title="view us on instagram" alt="instagram">
+        </a>
+
+
+        <p>&copy;copyright GuitarVibes.com</p>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,37 @@
+/* PRoduct div*/
+
+.product-thumbnail {
+    width: 25%;
+    height: 60%;
+    margin: 1% 2% 2% 4%;
+    background-color: ghostwhite;
+    position: relative;
+    display: inline-block;
+    border: 5px solid gainsboro;
+}
+
+/*Product image*/
+
+.product-thumbnail img {
+    width: 60%;
+    margin-left: 10%;
+    padding: 10%;
+}
+
+.product-thumbnail p {
+    text-align: center;
+    font-size: medium;
+    color: red;
+    font-weight: bolder;
+}
+
+.product-thumbnail:hover {
+    background-color: cornsilk;
+    border: 5px double gainsboro;
+}
+
+h3 {
+    padding-top: 8%;
+    padding-bottom: 3%;
+    height: 30%;
+}

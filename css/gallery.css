@@ -1,0 +1,34 @@
+.product-thumbnail img {
+    width: 25%;
+    height: 20%;
+    float: left;
+    padding-top: 3%;
+    margin-left: 5%;
+    margin-bottom: 1%;
+}
+
+.product-thumbnail:hover {
+    opacity: 50%;
+}
+
+#poster img {
+    width: 100%;
+    height: 30%;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+/*-******************************************--*/
+
+.img:target {
+    height: 450px;
+    width: 500px;
+}
+
+.img:target+.close {
+    display: block;
+}
+
+.img:target+.close+.expand {
+    display: none;
+}
